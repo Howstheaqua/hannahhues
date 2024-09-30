@@ -82,17 +82,14 @@ main figure img{
     padding: 0.5em 1em;
 }
 nav {
-    top: 0;
-    left: 0;
     width: 100%;
     z-index: 2;
-    background-color: #66667f;
+    background-color: #f0f0f0;
     text-align: center;
     position: fixed;
     margin: 0;
     padding: 0;
     transition: top 0.3s;
-    color: #bed8d8;
     /* border-bottom: 4px solid #000000; */
 }
 nav ul {
