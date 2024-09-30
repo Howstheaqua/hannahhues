@@ -44,7 +44,7 @@ function magnific(){
       cursor: 'mfp-zoom-out-cur', // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
     
       titleSrc: function(item) {
-        return item.el.attr('title') + ' <a style="color: inherit;" href="order.html?' + item.el.attr('link') + '">Order Now</a>';
+        return item.el.attr('title');
         },
     
       verticalFit: true, // Fits image in area vertically
